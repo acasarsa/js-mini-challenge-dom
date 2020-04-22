@@ -61,7 +61,7 @@ Create a DOM element that looks like this for each player and append it to the `
 **YOUR NOTES**
 ```
 can access because it's in the same folder? 
-can pass in entire innerHTML 
+can pass in entire innerHTML instead of creating and adding each one. 
 ```
 
 ## Deliverable 4
@@ -73,4 +73,5 @@ Hint: You can use `querySelector` with [CSS Attribute Selectors](https://develop
 **YOUR NOTES**
 ```
 have to use class="" or div won't match
+used selector to find div[attribute that = "7"]
 ```
