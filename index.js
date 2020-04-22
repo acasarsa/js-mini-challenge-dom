@@ -16,9 +16,9 @@ function updateDOM () {
 /***** Deliverable 2 *****/
   let header = document.querySelector("h1#header")
   console.log("Here's your header:", header)
-  /***** Deliverable 3 *****/
   header.style.color = "red"
-  
+
+  /***** Deliverable 3 *****/
   console.log("PLAYERS array looks like this:", PLAYERS)
 
   let base = document.querySelector(".player-container")
@@ -30,6 +30,7 @@ PLAYERS.forEach(player => {
 
   
   });
+/***** Deliverable 4 *****/
 
   let manCityPlayer = document.querySelector('div[data-number="7"]')
   manCityPlayer.remove()
@@ -40,4 +41,3 @@ PLAYERS.forEach(player => {
 
 
 
-/***** Deliverable 4 *****/
