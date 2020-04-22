@@ -26,7 +26,9 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
+it wasn't working because the header was being declared before the DOM was loaded. so i put it inside that callback function. 
 
+- but i'm not sure how anything else will run outside of it? 
 ```
 
 ## Deliverable 2
@@ -35,7 +37,8 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+  header.style.color = "red"
+- this went into updateDom() because there was same issue as above. 
 ```
 
 ## Deliverable 3
@@ -57,7 +60,8 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
-
+can access because it's in the same folder? 
+can pass in entire innerHTML 
 ```
 
 ## Deliverable 4
@@ -68,5 +72,5 @@ Hint: You can use `querySelector` with [CSS Attribute Selectors](https://develop
 
 **YOUR NOTES**
 ```
-
+have to use class="" or div won't match
 ```
