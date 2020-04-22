@@ -40,4 +40,30 @@ PLAYERS.forEach(player => {
 
 
 
+//  long way from uriel 
+// const div = document.querySelector('.player-container');
 
+//   PLAYERS.forEach(function(playerObj) {
+//     let playerDiv = document.createElement('div');
+//     playerDiv.className = 'player';
+//     // console.log(playerDiv)
+//     playerDiv.setAttribute('data-number', playerObj.number);
+
+
+//     let playerEMTag = document.createElement('em');
+//     playerEMTag.innerHTML = `${playerObj.nickname}`
+//     // console.log(playerEMTag);
+
+//     let playerHTag = document.createElement('h3');
+//     playerHTag.textContent = `${playerObj.name} `;
+
+//     let playerIMGTag = document.createElement('img');
+//     playerIMGTag.src = playerObj.photo;
+//     playerIMGTag.setAttribute('alt', playerObj.name);
+
+//     div.appendChild(playerDiv).appendChild(playerHTag).appendChild(playerEMTag);
+//     div.appendChild(playerDiv).appendChild(playerIMGTag);
+//     // console.log(div);
+//   });
+//   const manchesterCityPlayer = document.querySelector('div[data-number="7"]');
+//   div.removeChild(manchesterCityPlayer);
